@@ -1,3 +1,4 @@
+// tailwind.config.ts
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -9,11 +10,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        brand: {
+          primary: "var(--brand-primary)",
+          accent: "var(--brand-accent)",
+        },
       },
     },
   },
   plugins: [],
 };
+
 export default config;
