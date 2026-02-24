@@ -1,7 +1,7 @@
 // src/config/site.ts
 import type { SiteConfig } from "@/app/types/site";
 
-const whatsappNumber = "5511999999999";
+const whatsappNumber = "5531995453632";
 const whatsappMessage = encodeURIComponent(
   "Olá! Vim pela landing page e gostaria de agendar uma consulta."
 );
@@ -122,7 +122,7 @@ export const siteConfig: SiteConfig = {
   contact: {
     whatsappNumber,
     email: "contato@example.com",
-    addressLine: "Av. Exemplo, 123 - São Paulo/SP",
+    addressLine: "Av. Paulista, 123 - São Paulo/SP",
     businessHours: "Seg–Sex, 09:00–18:00",
   },
 };
